@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:312E81,45:5B21B6,100:7C3AED&height=220&section=header&text=Md%20Reajul%20Karim%20Hridoy&fontSize=38&fontColor=FFFFFF&fontAlignY=36&desc=ASIC | FPGA%20%7C%20SoC%20%7C%20CPU%20Design%20Verification&descAlignY=57&descSize=18&animation=fadeIn" alt="Profile header" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:312E81,45:5B21B6,100:7C3AED&height=220&section=header&text=Md%20Reajul%20Karim%20Hridoy&fontSize=38&fontColor=FFFFFF&fontAlignY=36&desc=ASIC%20%7C%20FPGA%20%7C%20SoC%20%7C%20CPU%20Design%20Verification&descAlignY=57&descSize=18&animation=fadeIn" alt="Profile header" />
 </p>
 
 <p align="center">
