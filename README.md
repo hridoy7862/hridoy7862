@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://saisuryasashankdronamraju.netlify.app/">
+  <a href="/">
     <img src="https://img.shields.io/badge/Portfolio-Visit-6D28D9?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio" />
   </a>
   <a href="www.linkedin.com/in/md-reajul-karim-hridoy-8a96b9362/">
@@ -49,6 +49,7 @@ My current target roles are **Design Verification Engineer, SoC Verification Eng
 |:--|:--|
 | **CPU and Microarchitecture** | Pipeline control, forwarding, hazard detection, branch and jump redirection, retirement-level checking, architectural state validation |
 | **SoC Interconnects** | AMBA AXI4-Lite/APB transaction translation, ready/valid backpressure, wait states, response propagation, ordering and error handling |
+| **Fpga Prototype** | Synthesis, Physical Optimization, Placement, Bit-stream Generation, Utilization, Execute Program |
 | **Memory and NoC** | QoS arbitration, multi-master traffic, burst behavior, skid buffering, scheduling, CRC fault handling, end-to-end data integrity |
 | **Dynamic Verification** | Directed and constrained-random stimulus, monitors, scoreboards, reference models, assertions, functional coverage, regressions |
 | **Formal Verification** | Safety, protocol, progress, state-transition, and datapath-correctness properties using SVA and SymbiYosys-based flows |
@@ -97,23 +98,6 @@ My current target roles are **Design Verification Engineer, SoC Verification Eng
 
 ## Featured Verification Projects
 
-<details open>
-<summary><strong>AI-Optimized DDR5-Inspired BENoC Verification Platform</strong></summary>
-<br />
-
-A 64-bit memory-subsystem verification platform that models concurrent CPU, accelerator, DMA, and debug traffic through a QoS-aware BENoC fabric into a DDR5-inspired controller.
-
-| Area | Implementation |
-|:--|:--|
-| **Architecture** | Four traffic sources, QoS-aware arbitration, skid-buffer backpressure isolation, burst transactions, command scheduling, CRC-protected data flow |
-| **Verification** | Directed and constrained-random stimulus, protocol monitors, transaction scoreboarding, reference memory model, CRC fault injection, end-to-end data checking |
-| **Coverage** | QoS contention, burst traffic, controller backpressure, multi-master concurrency, CRC error handling and recovery paths |
-| **Measured Result** | 100% functional coverage, 100% assertion coverage and 90% code coverage in the completed verification scope |
-| **Repository** | [View project source and documentation](https://github.com/Therockstar2001/AI-Optimized-DDR5-Inspired-BENoC-Verification-Platform) |
-
-**Engineering depth:** The environment checks not only payload correctness, but also arbitration decisions, ordering behavior, backpressure propagation, protocol progress, and integrity failures across the complete transaction path.
-
-</details>
 
 <details open>
 <summary><strong>RV32I 5-Stage Pipelined Processor Design and Verification</strong></summary>
@@ -134,10 +118,10 @@ A SystemVerilog implementation and retirement-driven verification environment fo
 </details>
 
 <details open>
-<summary><strong>AMBA AXI4-Lite to APB Bridge Design and Verification</strong></summary>
+<summary><strong>AMBA AXI4-Crossbar to APB Bridge Design and Verification</strong></summary>
 <br />
 
-A synthesizable protocol bridge and layered SystemVerilog verification environment for translating decoupled AXI4-Lite traffic into APB setup/access transfers.
+A synthesizable protocol bridge and layered SystemVerilog verification environment for translating decoupled AXI4-Crossbar traffic into APB setup/access transfers.
 
 | Area | Implementation |
 |:--|:--|
@@ -145,7 +129,7 @@ A synthesizable protocol bridge and layered SystemVerilog verification environme
 | **Dynamic Verification** | Transaction-level driver, passive monitor, self-checking scoreboard, functional coverage, directed tests, constrained-random traffic and error injection |
 | **Formal Verification** | SymbiYosys-based properties covering protocol sequencing, state transitions, response correctness, stability and selected datapath invariants |
 | **Regression** | Makefile-driven test execution, per-test logs and automated pass/fail reporting for normal, stalled and invalid-access scenarios |
-| **Repository** | [View project source and documentation](https://github.com/Therockstar2001/AMBA-AXI-to-APB-Bridge) |
+| **Repository** | [View project source and documentation](https://github.com/hridoy7862/AXI_crossbar_FPGA_implementation) |
 
 **Engineering depth:** The verification strategy separates interface behavior, translation correctness, slave-side timing and formal invariants so protocol failures can be isolated without relying on a single end-to-end test outcome.
 
@@ -157,11 +141,14 @@ A synthesizable protocol bridge and layered SystemVerilog verification environme
 
 | Project | Technical Scope | Repository |
 |:--|:--|:--:|
-| **Synchronous FIFO** | Parameterized FIFO RTL; full, empty, overflow, underflow, pointer wrap-around and concurrent read/write verification | [Open](https://github.com/Therockstar2001/Synchronous-FIFO) |
-| **Packet Router QoS Scheduler** | Multi-input packet routing, priority arbitration, round-robin fairness, ready/valid flow control, packet locking and backpressure | [Open](https://github.com/Therockstar2001/Packet-Router-Qos-Scheduler) |
-| **32-Bit CLA Physical Design** | Hierarchical carry-lookahead architecture, transistor-level CMOS design, HSPICE characterization and team-based physical-design flow | [Open](https://github.com/Therockstar2001/32-Bit-CLA-Physical-Design) |
-| **Parameterized 32-Bit ALU** | Synthesizable arithmetic/logic datapath with a self-checking SystemVerilog testbench | [Open](https://github.com/Therockstar2001/Parameterized-32-Bit-Arithmetic-Logic-Unit) |
-| **VLSI Job Notifier** | Python-based job aggregation, filtering, deduplication, scheduled execution and notification workflow | [Open](https://github.com/Therockstar2001/vlsi-job-notifier) |
+| **Synchronous FIFO** | Parameterized FIFO RTL; full, empty, overflow, underflow, pointer wrap-around and concurrent read/write verification | [Open](https://github.com/hridoy7862/synchronous_fifo) |
+| **CVA6 RISC-V SoC Implementation on FPGA** |  Implemented and deployed the CVA6 (Ariane) open-source RISC-V SoC on an Artix-7 FPGA board, taking the design from
+RTL through Vivado synthesis, implementation, and bitstream generation to a working on-board core. | [Open](https://github.com/hridoy7862/cva6_FPGA_implementation) |
+| **Asynchronous FIFO Design & Verification** | Designed a dual-port asynchronous FIFO in SystemVerilog with robust clock-domain-crossing (CDC) synchronization and
+Gray-code pointer architecture; developed a class-based verification environment to validate functionality.
+ | [Open](https://github.com/hridoy7862/Asynchronous_fifo_project) |
+| **Pulpissimo SoC Fpga Zedboard** | Implemented the Pulpissiomo 4 stage open source RISC-V SoC on Digilent Zedboard and Execute Program | [Open](https://github.com/hridoy7862/pulpissimo_soc_fpga_zedboard) |
+| **APB Protocol** | Designed and Verified APB protocol with UVM Testbench and Implemented it on FPGA Board | [Open](https://github.com/hridoy7862/APB_protocol) |
 
 ---
 
@@ -169,21 +156,18 @@ A synthesizable protocol bridge and layered SystemVerilog verification environme
 
 <table>
   <tr>
-    <td width="28%"><strong>Master of Science</strong></td>
-    <td><strong>Computer Engineering — New Jersey Institute of Technology</strong><br />September 2024 – May 2026 · GPA: 3.7/4.0</td>
+    <td width="28%"><strong>Bachelor of Science</strong></td>
+    <td><strong>Electrical & Electronic Engineering — Rajshahi University of Engineering & Technology</strong><br />Jan 2020 – Aug 2025 · GPA: 3.39/4.0</td>
   </tr>
   <tr>
-    <td><strong>Bachelor of Technology</strong></td>
-    <td><strong>Electronics and Communication Engineering — Godavari Institute of Engineering & Technology</strong><br />August 2020 – April 2024 · GPA: 8.08/10</td>
+    <td><strong>HSC</strong></td>
+    <td><strong>Science — Notre Dame college, Dhaka</strong><br />May 2017 – April 2019 · GPA: 5.00/5.00</td>
   </tr>
 </table>
 
 ### Publication
 
-**Smart Farming Robot for Detecting Plant Diseases Using Machine Learning**  
-*International Journal of Creative Research Thoughts, Volume 12, Issue 2, February 2024*
 
-Developed an embedded robotic platform integrating Raspberry Pi-based vision, Arduino-connected sensing and motor-control subsystems for automated environmental monitoring and plant-disease classification.
 
 ---
 
@@ -211,24 +195,9 @@ Targeted regressions, root-cause debug and closure
 
 ---
 
-## GitHub Analytics
 
-<p align="center">
-  <img height="172" src="https://github-readme-stats.vercel.app/api?username=Therockstar2001&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=C9D1D9&ring_color=7C3AED" alt="GitHub statistics" />
-  <img height="172" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Therockstar2001&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" alt="Top languages" />
-</p>
 
-<p align="center">
-  <img width="62%" src="https://streak-stats.demolab.com?user=Therockstar2001&hide_border=true&background=0D1117&stroke=312E81&ring=7C3AED&fire=A78BFA&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=A78BFA&sideLabels=C4B5FD&dates=8B949E" alt="GitHub streak" />
-</p>
 
-### Contribution Activity
-
-<p align="center">
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Therockstar2001&bg_color=0D1117&color=C4B5FD&line=7C3AED&point=A78BFA&area=true&area_color=4C1D95&hide_border=true&custom_title=Engineering%20Contribution%20Activity" alt="Contribution activity graph" />
-</p>
-
----
 
 ## Current Focus
 
@@ -255,16 +224,16 @@ open_to:
 ## Connect
 
 <p align="center">
-  <a href="mailto:sashankdronamraju@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-sashankdronamraju%40gmail.com-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  <a href="mailto:md.hridoy7862@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-md.hridoy7862%40gmail.com-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
-  <a href="https://www.linkedin.com/in/sai-surya-sashank-dronamraju-413316277/">
-    <img src="https://img.shields.io/badge/LinkedIn-Sai_Surya_Sashank_Dronamraju-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://www.linkedin.com/in/md-reajul-karim-hridoy-8a96b9362/">
+    <img src="https://img.shields.io/badge/LinkedIn-Md_Reajul_karim_Hridoy-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://github.com/Therockstar2001">
+  <a href="https://github.com/hridoy7862">
     <img src="https://img.shields.io/badge/GitHub-Therockstar2001-312E81?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://saisuryasashankdronamraju.netlify.app/">
+  <a href="/">
     <img src="https://img.shields.io/badge/Portfolio-Engineering_Portfolio-7C3AED?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio" />
   </a>
 </p>
