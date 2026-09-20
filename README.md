@@ -126,23 +126,6 @@ Studied the security implications of the Mole attack against GPU Trusted Executi
 
 ---
 
-## UVM Verification
-
-Developed and studied reusable UVM environments using the standard hierarchical verification architecture:
-
-```text
-UVM Test
-   │
-   └── Environment
-        │
-        └── Agent
-             │
-             ├── Sequencer
-             │
-             ├── Driver
-             │
-             └── Monitor
-                    │
-                    ├── Reference Model
-                    │
-                    └── Scoreboard
+Technical Stack
+RTL, Verification and Architecture
+<p align="center"> <img src="https://img.shields.io/badge/SystemVerilog-RTL_%26_Verification-6D28D9?style=for-the-badge" alt="SystemVerilog" /> <img src="https://img.shields.io/badge/UVM-Reusable_Testbenches-5B21B6?style=for-the-badge" alt="UVM" /> <img src="https://img.shields.io/badge/SVA-Assertions-4F46E5?style=for-the-badge" alt="SVA" /> <img src="https://img.shields.io/badge/Formal_Verification-SymbiYosys-4338CA?style=for-the-badge" alt="Formal verification" /> <img src="https://img.shields.io/badge/Functional_Coverage-Coverage_Closure-7C3AED?style=for-the-badge" alt="Functional coverage" /> <img src="https://img.shields.io/badge/Constrained_Random-Stimulus-6D28D9?style=for-the-badge" alt="Constrained random" /> </p> <p align="center"> <img src="https://img.shields.io/badge/RISC--V-RV32I-5B21B6?style=flat-square&logo=riscv&logoColor=white" alt="RISC-V" /> <img src="https://img.shields.io/badge/AMBA-AXI_%7C_AHB_%7C_APB-4F46E5?style=flat-square" alt="AMBA" /> <img src="https://img.shields.io/badge/NoC-QoS_%26_Backpressure-4338CA?style=flat-square" alt="NoC" /> <img src="https://img.shields.io/badge/Memory-DDR_%7C_Cache_%7C_SRAM-7C3AED?style=flat-square" alt="Memory systems" /> <img src="https://img.shields.io/badge/RTL-FSM_%7C_Pipeline_%7C_Arbitration-6D28D9?style=flat-square" alt="RTL design" /> </p>
