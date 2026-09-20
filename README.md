@@ -142,11 +142,9 @@ A synthesizable protocol bridge and layered SystemVerilog verification environme
 | Project | Technical Scope | Repository |
 |:--|:--|:--:|
 | **Synchronous FIFO** | Parameterized FIFO RTL; full, empty, overflow, underflow, pointer wrap-around and concurrent read/write verification | [Open](https://github.com/hridoy7862/synchronous_fifo) |
-| **CVA6 RISC-V SoC Implementation on FPGA** |  Implemented and deployed the CVA6 (Ariane) open-source RISC-V SoC on an Artix-7 FPGA board, taking the design from
-RTL through Vivado synthesis, implementation, and bitstream generation to a working on-board core. | [Open](https://github.com/hridoy7862/cva6_FPGA_implementation) |
+| **CVA6 RISC-V SoC Implementation on FPGA** |  Implemented and deployed the CVA6 (Ariane) open-source RISC-V SoC on an Artix-7 FPGA board, taking the design from RTL through Vivado synthesis, implementation, and bitstream generation to a working on-board core. | [Open] (https://github.com/hridoy7862/cva6_FPGA_implementation) |
 | **Asynchronous FIFO Design & Verification** | Designed a dual-port asynchronous FIFO in SystemVerilog with robust clock-domain-crossing (CDC) synchronization and
-Gray-code pointer architecture; developed a class-based verification environment to validate functionality.
- | [Open](https://github.com/hridoy7862/Asynchronous_fifo_project) |
+Gray-code pointer architecture; developed a class-based verification environment to validate functionality.| [Open](https://github.com/hridoy7862/Asynchronous_fifo_project) |
 | **Pulpissimo SoC Fpga Zedboard** | Implemented the Pulpissiomo 4 stage open source RISC-V SoC on Digilent Zedboard and Execute Program | [Open](https://github.com/hridoy7862/pulpissimo_soc_fpga_zedboard) |
 | **APB Protocol** | Designed and Verified APB protocol with UVM Testbench and Implemented it on FPGA Board | [Open](https://github.com/hridoy7862/APB_protocol) |
 
