@@ -1,24 +1,21 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:312E81,45:5B21B6,100:7C3AED&height=220&section=header&text=Md%20Reajul%20Karim%20Hridoy&fontSize=38&fontColor=FFFFFF&fontAlignY=36&desc=ASIC%20%7C%20FPGA%20%7C%20SoC%20%7C%20CPU%20Design%20Verification&descAlignY=57&descSize=18&animation=fadeIn" alt="Profile header" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:312E81,45:5B21B6,100:7C3AED&height=220&section=header&text=Md%20Reajul%20Karim%20Hridoy&fontSize=38&fontColor=FFFFFF&fontAlignY=36&desc=Hardware%20Security%20%7C%20Computer%20Architecture%20%7C%20RTL%20%7C%20FPGA&descAlignY=57&descSize=18&animation=fadeIn" alt="Profile header" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=A78BFA&center=true&vCenter=true&width=920&lines=SystemVerilog+%7C+UVM+%7C+SVA+%7C+Functional+Coverage;Processor+Verification+%7C+AMBA+AXI%2FAPB+%7C+NoC;Constrained-Random+%7C+Scoreboards+%7C+Formal+Verification;Building+architecture-aware%2C+self-checking+verification+environments" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=A78BFA&center=true&vCenter=true&width=920&lines=Hardware+%26+SoC+Security+%7C+RISC-V+%7C+Computer+Architecture;SystemVerilog+%7C+UVM+%7C+SVA+%7C+Functional+Coverage;RTL+Design+%7C+AMBA+AXI%2FAPB+%7C+FPGA+Prototyping;Logic+Locking+%7C+Hardware+Trojan+Detection+%7C+Hardware+Trust;ASIC+Design+%7C+Physical+Design+%7C+AI+for+EDA" alt="Typing animation" />
 </p>
 
 <p align="center">
   <a href="https://www.ruet.ac.bd/">
-    <img src="https://img.shields.io/badge/B.Sc_Electronic_Engineering-RUET-5B21B6?style=for-the-badge" alt="RUET" />
+    <img src="https://img.shields.io/badge/B.Sc._EEE-RUET-5B21B6?style=for-the-badge" alt="RUET" />
   </a>
   <img src="https://img.shields.io/badge/Dhaka-Bangladesh-4338CA?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
-  <img src="https://komarev.com/ghpvc/?username=Therockstar2001&label=Profile%20Views&color=6D28D9&style=for-the-badge" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=hridoy7862&label=Profile%20Views&color=6D28D9&style=for-the-badge" alt="Profile views" />
 </p>
 
 <p align="center">
-  <a href="/">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-6D28D9?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="www.linkedin.com/in/md-reajul-karim-hridoy-8a96b9362/">
+  <a href="https://www.linkedin.com/in/md-reajul-karim-hridoy-8a96b9362/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:md.hridoy7862@gmail.com">
@@ -29,222 +26,363 @@
   </a>
 </p>
 
-
-
 ---
 
 ## About
 
-I am an **ASIC and SoC Design Verification engineer** with an B.Sc in ELectricl & Electronic Engineering from the Rajshahi University of Engineering & Technology. My work is centered on verifying digital systems at the RTL and subsystem levels, with emphasis on **processor pipelines, AMBA interconnects, memory subsystems, Network-on-Chip fabrics, and protocol-driven control logic**.
+I am an **RTL Design & Verification Engineer** with a B.Sc. in Electrical & Electronic Engineering from **Rajshahi University of Engineering & Technology (RUET)**. My technical and research interests lie at the intersection of **hardware security, computer architecture, RTL design and verification, FPGA prototyping, and VLSI/ASIC design**.
 
-I build verification environments around architectural intent rather than isolated signal checks. My projects use constrained-random stimulus, reusable transaction-level components, independent reference models, self-checking scoreboards, SystemVerilog Assertions, functional coverage, formal properties, fault injection, and automated regression flows.
+My work spans both **hardware implementation and verification**, including RISC-V processor and SoC architectures, AMBA interconnects, memory and CDC structures, SystemVerilog RTL, UVM and class-based verification, FPGA implementation, and ASIC physical design.
 
-My current target roles are **Design Verification Engineer, SoC Verification Engineer, CPU Verification Engineer, and RTL Design Engineer** positions where debugging depth, coverage closure, and microarchitecture understanding are core requirements.
-
----
-
-## Verification Focus
-
-| Domain | Engineering Scope |
-|:--|:--|
-| **CPU and Microarchitecture** | Pipeline control, forwarding, hazard detection, branch and jump redirection, retirement-level checking, architectural state validation |
-| **SoC Interconnects** | AMBA AXI4-Lite/APB transaction translation, ready/valid backpressure, wait states, response propagation, ordering and error handling |
-| **Fpga Prototype** | Synthesis, Physical Optimization, Placement, Bit-stream Generation, Utilization, Execute Program |
-| **Memory and NoC** | QoS arbitration, multi-master traffic, burst behavior, skid buffering, scheduling, CRC fault handling, end-to-end data integrity |
-| **Dynamic Verification** | Directed and constrained-random stimulus, monitors, scoreboards, reference models, assertions, functional coverage, regressions |
-| **Formal Verification** | Safety, protocol, progress, state-transition, and datapath-correctness properties using SVA and SymbiYosys-based flows |
-| **Debug and Closure** | Waveform analysis, transaction tracing, root-cause isolation, assertion triage, coverage-gap analysis, test refinement |
+I am particularly interested in understanding how secure and reliable computing systems can be designed from the **architecture level down to RTL and physical implementation**.
 
 ---
 
-## Technical Stack
+## Research Interests
 
-### RTL, Verification and Architecture
-
-<p align="center">
-  <img src="https://img.shields.io/badge/SystemVerilog-RTL_%26_Verification-6D28D9?style=for-the-badge" alt="SystemVerilog" />
-  <img src="https://img.shields.io/badge/UVM-Reusable_Testbenches-5B21B6?style=for-the-badge" alt="UVM" />
-  <img src="https://img.shields.io/badge/SVA-Assertions-4F46E5?style=for-the-badge" alt="SVA" />
-  <img src="https://img.shields.io/badge/Formal_Verification-SymbiYosys-4338CA?style=for-the-badge" alt="Formal verification" />
-  <img src="https://img.shields.io/badge/Functional_Coverage-Coverage_Closure-7C3AED?style=for-the-badge" alt="Functional coverage" />
-  <img src="https://img.shields.io/badge/Constrained_Random-Stimulus-6D28D9?style=for-the-badge" alt="Constrained random" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/RISC--V-RV32I-5B21B6?style=flat-square&logo=riscv&logoColor=white" alt="RISC-V" />
-  <img src="https://img.shields.io/badge/AMBA-AXI_%7C_AHB_%7C_APB-4F46E5?style=flat-square" alt="AMBA" />
-  <img src="https://img.shields.io/badge/NoC-QoS_%26_Backpressure-4338CA?style=flat-square" alt="NoC" />
-  <img src="https://img.shields.io/badge/Memory-DDR_%7C_Cache_%7C_SRAM-7C3AED?style=flat-square" alt="Memory systems" />
-  <img src="https://img.shields.io/badge/RTL-FSM_%7C_Pipeline_%7C_Arbitration-6D28D9?style=flat-square" alt="RTL design" />
-</p>
-
-### Languages, Tools and Workflow
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,linux,git,github,vscode&theme=dark" alt="Languages and tools" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Verilog-HDL-5B21B6?style=flat-square" alt="Verilog" />
-  <img src="https://img.shields.io/badge/VHDL-HDL-4F46E5?style=flat-square" alt="VHDL" />
-  <img src="https://img.shields.io/badge/QuestaSim-Simulation-4338CA?style=flat-square" alt="QuestaSim" />
-  <img src="https://img.shields.io/badge/Vivado-FPGA_Flow-7C3AED?style=flat-square" alt="Vivado" />
-  <img src="https://img.shields.io/badge/Quartus_Prime-FPGA_Flow-6D28D9?style=flat-square" alt="Quartus Prime" />
-  <img src="https://img.shields.io/badge/Makefile-Regression_Automation-5B21B6?style=flat-square" alt="Makefile" />
-  <img src="https://img.shields.io/badge/EDA_Playground-Cloud_Simulation-4F46E5?style=flat-square" alt="EDA Playground" />
-</p>
+- **Hardware & SoC Security**
+- **Computer Architecture & SoC Design**
+- **RTL Design & Verification**
+- **FPGA Architecture & Prototyping**
+- **VLSI & Digital IC Design**
+- **ASIC Design & Physical Design**
+- **Hardware Trust**
+- **Logic Locking & SAT-Based Attacks**
+- **Hardware Trojan Detection**
+- **Embedded Systems**
+- **AI for EDA**
 
 ---
 
-## Featured Verification Projects
+## Research Experience
 
+### 🔐 IP Protection in SoCs — Logic Locking Evaluation with SAT Attacks
 
-<details open>
-<summary><strong>RV32I 5-Stage Pipelined Processor Design and Verification</strong></summary>
-<br />
+**B.Sc. Thesis — Rajshahi University of Engineering & Technology**
 
-A SystemVerilog implementation and retirement-driven verification environment for a 5-stage in-order RV32I processor with explicit data- and control-hazard handling.
+- Investigated **logic locking** techniques for protecting hardware IP in System-on-Chip (SoC) designs.
+- Analyzed the vulnerability of conventional locking schemes to **SAT-based attacks**.
+- Developed an algorithm from the **attacker perspective** to analyze and break logic-locked circuits.
+- Developed **two protection algorithms** from the defender perspective to improve resistance against SAT-based attacks.
+- Evaluated the proposed protection approaches against the developed attack methodology.
 
-| Area | Implementation |
-|:--|:--|
-| **Microarchitecture** | IF/ID/EX/MEM/WB pipeline, EX/MEM and MEM/WB forwarding, load-use stalls, branch and jump redirection, control-hazard flushing |
-| **Verification** | Commit monitor, functional coverage, instruction-aware stimulus and an independent architectural reference model connected to a self-checking scoreboard |
-| **Checks** | Program-counter sequencing, register writeback, load/store state updates, instruction retirement and control-flow correctness |
-| **Measured Result** | Zero scoreboard mismatches across more than 20,000 retired instructions; 77% functional coverage in the documented verification phase |
-| **Repository** | [View project source and documentation](https://github.com/Therockstar2001/RV32I-Processor-Core) |
-
-**Engineering depth:** Checking at the architectural retirement boundary decouples the reference model from internal pipeline timing while still exposing forwarding, stall, flush, writeback, and control-flow defects.
-
-</details>
-
-<details open>
-<summary><strong>AMBA AXI4-Crossbar to APB Bridge Design and Verification</strong></summary>
-<br />
-
-A synthesizable protocol bridge and layered SystemVerilog verification environment for translating decoupled AXI4-Crossbar traffic into APB setup/access transfers.
-
-| Area | Implementation |
-|:--|:--|
-| **RTL** | AXI read/write channel handling, APB two-phase transfers, PREADY wait-state propagation, response generation and PSLVERR-to-SLVERR mapping |
-| **Dynamic Verification** | Transaction-level driver, passive monitor, self-checking scoreboard, functional coverage, directed tests, constrained-random traffic and error injection |
-| **Formal Verification** | SymbiYosys-based properties covering protocol sequencing, state transitions, response correctness, stability and selected datapath invariants |
-| **Regression** | Makefile-driven test execution, per-test logs and automated pass/fail reporting for normal, stalled and invalid-access scenarios |
-| **Repository** | [View project source and documentation](https://github.com/hridoy7862/AXI_crossbar_FPGA_implementation) |
-
-**Engineering depth:** The verification strategy separates interface behavior, translation correctness, slave-side timing and formal invariants so protocol failures can be isolated without relying on a single end-to-end test outcome.
-
-</details>
+**Research Themes:**  
+`Hardware Security` `Logic Locking` `SAT Attacks` `IP Protection` `SoC Security`
 
 ---
 
-## Additional RTL and Hardware Projects
+### 🔐 Mole — GPU Trusted Execution Environment Security
 
-| Project | Technical Scope | Repository |
-|:--|:--|:--:|
-| **Synchronous FIFO** | Parameterized FIFO RTL; full, empty, overflow, underflow, pointer wrap-around and concurrent read/write verification | [Open](https://github.com/hridoy7862/synchronous_fifo) |
-| **CVA6 RISC-V SoC Implementation on FPGA** |  Implemented and deployed the CVA6 (Ariane) open-source RISC-V SoC on an Artix-7 FPGA board, taking the design from RTL through Vivado synthesis, implementation, and bitstream generation to a working on-board core. | [Open] (https://github.com/hridoy7862/cva6_FPGA_implementation) |
-| **Asynchronous FIFO Design & Verification** | Designed a dual-port asynchronous FIFO in SystemVerilog with robust clock-domain-crossing (CDC) synchronization and
-Gray-code pointer architecture; developed a class-based verification environment to validate functionality.| [Open](https://github.com/hridoy7862/Asynchronous_fifo_project) |
-| **Pulpissimo SoC Fpga Zedboard** | Implemented the Pulpissiomo 4 stage open source RISC-V SoC on Digilent Zedboard and Execute Program | [Open](https://github.com/hridoy7862/pulpissimo_soc_fpga_zedboard) |
-| **APB Protocol** | Designed and Verified APB protocol with UVM Testbench and Implemented it on FPGA Board | [Open](https://github.com/hridoy7862/APB_protocol) |
+**Independent Research Project**
 
-| **Synchronous FIFO** | Parameterized FIFO RTL; full, empty, overflow, underflow, pointer wrap-around, and concurrent read/write verification | [Open](https://github.com/hridoy7862/synchronous_fifo) |
-| **CVA6 RISC-V SoC Implementation on FPGA** | Implemented and deployed the CVA6 (Ariane) open-source RISC-V SoC on an Artix-7 FPGA board, taking the design from RTL through Vivado synthesis, implementation, and bitstream generation to a working on-board core | [Open](https://github.com/hridoy7862/cva6_FPGA_implementation) |
-| **Asynchronous FIFO Design & Verification** | Designed a dual-port asynchronous FIFO in SystemVerilog using CDC synchronization and Gray-code pointer architecture; developed a class-based verification environment to validate functionality | [Open](https://github.com/hridoy7862/Asynchronous_fifo_project) |
-| **Pulpissimo SoC FPGA ZedBoard** | Implemented the Pulpissimo 4-stage open-source RISC-V SoC on a Digilent ZedBoard and executed programs on the FPGA through JTAG | [Open](https://github.com/hridoy7862/pulpissimo_soc_fpga_zedboard) |
-| **APB Protocol Design & Verification** | Designed and verified an APB protocol implementation using a UVM testbench and deployed the design on an FPGA board | [Open](https://github.com/hridoy7862/APB_protocol) |
----
+- Studied the **Mole attack** against GPU Trusted Execution Environments (TEEs).
+- Investigated how compromised GPU-embedded microcontrollers can undermine trusted execution.
+- Analyzed the security assumptions and architectural trust boundaries involved in GPU TEEs.
+- Examined implications for **hardware-assisted security, GPU security, and secure SoC architectures**.
 
-## Education and Research
-
-<table>
-  <tr>
-    <td width="28%"><strong>Bachelor of Science</strong></td>
-    <td><strong>Electrical & Electronic Engineering — Rajshahi University of Engineering & Technology</strong><br />Jan 2020 – Aug 2025 · GPA: 3.39/4.0</td>
-  </tr>
-  <tr>
-    <td><strong>HSC</strong></td>
-    <td><strong>Science — Notre Dame college, Dhaka</strong><br />May 2017 – April 2019 · GPA: 5.00/5.00</td>
-  </tr>
-</table>
-
-### Publication
-
-
+**Research Themes:**  
+`GPU Security` `Trusted Execution Environments` `Hardware Security` `Embedded Microcontrollers`
 
 ---
 
-## Engineering Approach
+# RISC-V & Computer Architecture
+
+## 🚀 CVA6 RISC-V Processor SoC — Artix-7 FPGA
+
+- Studied the **CVA6 (Ariane) open-source RISC-V processor architecture**, including its six-stage pipeline and cache/memory subsystem.
+- Analyzed processor execution stages including instruction fetch, decode, issue, execute, and commit.
+- Integrated and implemented the open-source CVA6 SoC on an **Artix-7 FPGA** using Vivado.
+- Completed synthesis, implementation, timing/constraint handling, and bitstream generation.
+- Brought up the processor on physical FPGA hardware and executed programs to validate the implementation.
+
+**Technologies:**  
+`RISC-V` `CVA6` `SystemVerilog` `Vivado` `Artix-7` `FPGA`
+
+[View Project](https://github.com/hridoy7862/cva6_FPGA_implementation)
+
+---
+
+## 🚀 Pulpissimo RISC-V SoC — ZedBoard FPGA Bring-Up
+
+- Studied the architecture and integration of the **Pulpissimo 4-stage open-source RISC-V SoC**.
+- Implemented the SoC on a **Digilent ZedBoard** using the Vivado FPGA implementation flow.
+- Worked through synthesis, implementation, constraints, and bitstream generation for FPGA deployment.
+- Established **JTAG-based program loading/debugging** and executed RISC-V programs on the FPGA-hosted SoC.
+
+**Technologies:**  
+`RISC-V` `Pulpissimo` `SoC` `Vivado` `ZedBoard` `JTAG` `FPGA`
+
+[View Project](https://github.com/hridoy7862/pulpissimo_soc_fpga_zedboard)
+
+---
+
+# RTL Design & Verification
+
+## 🔌 AXI Bus Architecture Design & UVM Verification
+
+Designed and verified an AXI-based interconnect architecture in SystemVerilog.
+
+### Architecture
+
+- Independent AXI read and write channels
+- VALID/READY handshaking
+- Address and data routing
+- Response handling
+- Arbitration
+- Transaction ordering
+- Burst-based read/write transactions
+- Master/slave communication
+
+### RTL
+
+- Developed synthesizable SystemVerilog RTL for AXI master/slave and interconnect functionality.
+- Implemented channel-level control and transaction management.
+- Designed and verified multi-master/multi-slave communication scenarios.
+
+### Verification
+
+Developed both **class-based and UVM verification environments** containing:
 
 ```text
-Specification and architectural intent
-                ↓
-Verification plan and risk decomposition
-                ↓
-Stimulus + monitors + assertions + reference models
-                ↓
-Scoreboard and end-to-end correctness checks
-                ↓
-Functional, assertion and code coverage analysis
-                ↓
-Targeted regressions, root-cause debug and closure
-```
+Test
+  │
+  └── Environment
+        │
+        ├── Agent
+        │     ├── Driver
+        │     └── Monitor
+        │
+        ├── Reference Model
+        │
+        └── Scoreboard
 
-- Treat assertions as executable interface and microarchitecture requirements.
-- Keep scoreboards independent from DUT implementation details wherever practical.
-- Verify backpressure, error propagation, reset interruption and illegal behavior—not only nominal traffic.
-- Use coverage to expose missing scenarios, not as a substitute for correctness checks.
-- Preserve deterministic logs and transaction traces so regressions remain debuggable at scale.
+Verification included:
 
----
+Directed testing
+Constrained-random stimulus
+Transaction-level checking
+Self-checking scoreboards
+Reference models
+Functional coverage
+SystemVerilog Assertions
+Protocol and corner-case testing
+Regression/debug analysis
 
+Technologies:
+SystemVerilog UVM AXI RTL Constrained Random SVA Functional Coverage
 
+🔌 APB Bus Architecture Design & UVM Verification
+Designed and implemented an APB master/slave communication architecture in SystemVerilog.
+Implemented address, control, read/write data, transfer sequencing, and response logic.
+Developed synthesizable RTL for APB communication and address decoding.
+Built both class-based and UVM verification environments.
+Developed drivers, monitors, reference models, scoreboards, sequences, and self-checking tests.
+Verified read/write transactions, address decoding, transfer sequencing, response behavior, and error scenarios.
+Deployed the RTL implementation on an FPGA board.
 
+Technologies:
+SystemVerilog UVM APB RTL Verification FPGA
 
+View Project
 
-## Current Focus
+🧮 RV32I 5-Stage Processor Design & Verification
 
-```yaml
-role_targets:
-  - Design Verification Engineer
-  - SoC Verification Engineer
-  - CPU Verification Engineer
-  - RTL Design Engineer
+A SystemVerilog implementation and verification environment for an in-order RV32I processor.
+
+Microarchitecture
+IF / ID / EX / MEM / WB pipeline
+Data forwarding
+Load-use stall handling
+Branch and jump redirection
+Control-hazard flushing
+Instruction retirement checking
+Verification
+Instruction-aware stimulus
+Commit/retirement monitoring
+Independent architectural reference model
+Self-checking scoreboard
+Functional coverage
+SystemVerilog Assertions
+Constrained-random verification
+Results
+Zero scoreboard mismatches across more than 20,000 retired instructions
+77% functional coverage in the documented verification phase
+
+The retirement-level verification strategy separates architectural correctness from internal pipeline timing and helps expose forwarding, stall, flush, writeback, and control-flow defects.
+
+View Project
+
+🔗 AXI4-Crossbar to APB Bridge Design & Verification
+
+A synthesizable protocol bridge translating AXI traffic into APB transactions.
+
+RTL
+AXI read/write channel handling
+APB setup/access phases
+PREADY wait-state propagation
+Response generation
+Error response mapping
+Transaction sequencing
+Dynamic Verification
+Transaction-level driver
+Passive monitor
+Self-checking scoreboard
+Functional coverage
+Directed tests
+Constrained-random traffic
+Error injection
+Formal Verification
+
+Used SystemVerilog Assertions and SymbiYosys-based formal verification for properties covering:
+
+Protocol sequencing
+State transitions
+Response correctness
+Signal stability
+Selected datapath invariants
+Regression
+Makefile-driven simulation
+Automated test execution
+Per-test logs
+Pass/fail reporting
+Normal, stalled, and invalid-access scenarios
+
+View Project
+
+FPGA & Digital Design Projects
+🧮 Asynchronous FIFO Design & CDC Verification
+Designed a dual-clock asynchronous FIFO in SystemVerilog.
+Implemented Gray-coded read/write pointers for safe clock-domain crossing.
+Used two-flop synchronizers for pointer synchronization.
+Developed a class-based verification environment.
+Verified simultaneous read/write operations, full/empty behavior, and CDC corner cases.
+
+Technologies:
+SystemVerilog CDC Gray Code FIFO Class-Based Verification
+
+View Project
+
+🧮 Synchronous FIFO Design & Verification
+Designed a parameterized synchronous FIFO RTL.
+Verified full and empty conditions.
+Tested overflow and underflow behavior.
+Verified pointer wrap-around.
+Tested concurrent read/write operations.
+Developed self-checking verification scenarios.
+
+View Project
+
+Hardware Security
+🛡️ FSM-Based Hardware Trojan Detection in PicoRV32 SoC
+Designed an FSM-based hardware Trojan detection mechanism for the PicoRV32 RISC-V SoC.
+Integrated the detection logic into the SystemVerilog design.
+Developed simulation testbenches to exercise normal and malicious operating conditions.
+Evaluated the behavior of the detection mechanism under different operating scenarios.
+
+Technologies:
+RISC-V PicoRV32 SystemVerilog Hardware Security Hardware Trojan Detection
+
+ASIC & Physical Design
+
+My professional experience also includes hands-on exposure to the backend ASIC physical-design flow.
+
+Physical Design
+Floorplanning
+Placement
+Clock Tree Synthesis
+Routing
+DRC
+LVS
+Static Timing Analysis
+Post-route timing analysis
+RTL / Verification
+SystemVerilog RTL
+UVM
+Class-based verification
+AXI
+APB
+FIFO
+CDC
+Assertions
+Functional coverage
+FPGA
+Xilinx Vivado
+XSIM
+Synthesis
+Implementation
+XDC constraints
+Timing analysis
+Bitstream generation
+Artix-7
+Zynq / ZedBoard
+JTAG-based FPGA bring-up
+Technical Stack
+Languages
+<p align="center"> <img src="https://skillicons.dev/icons?i=c,cpp,python,linux,git,github,vscode&theme=dark" alt="Languages and tools" /> </p> <p align="center"> <img src="https://img.shields.io/badge/Verilog-HDL-5B21B6?style=flat-square" alt="Verilog" /> <img src="https://img.shields.io/badge/SystemVerilog-RTL_%26_Verification-6D28D9?style=flat-square" alt="SystemVerilog" /> <img src="https://img.shields.io/badge/VHDL-HDL-4F46E5?style=flat-square" alt="VHDL" /> <img src="https://img.shields.io/badge/Python-Automation-4338CA?style=flat-square" alt="Python" /> <img src="https://img.shields.io/badge/C%2FC%2B%2B-Programming-7C3AED?style=flat-square" alt="C/C++" /> </p>
+Verification
+<p align="center"> <img src="https://img.shields.io/badge/UVM-Verification-5B21B6?style=for-the-badge" alt="UVM" /> <img src="https://img.shields.io/badge/SVA-Assertions-4F46E5?style=for-the-badge" alt="SVA" /> <img src="https://img.shields.io/badge/Functional_Coverage-Coverage_Closure-7C3AED?style=for-the-badge" alt="Functional Coverage" /> <img src="https://img.shields.io/badge/Constrained_Random-Stimulus-6D28D9?style=for-the-badge" alt="Constrained Random" /> <img src="https://img.shields.io/badge/Formal_Verification-SymbiYosys-4338CA?style=for-the-badge" alt="Formal Verification" /> </p>
+Architecture & Protocols
+<p align="center"> <img src="https://img.shields.io/badge/RISC--V-Processor_%26_SoC-5B21B6?style=flat-square" alt="RISC-V" /> <img src="https://img.shields.io/badge/AMBA-AXI_%7C_APB-4F46E5?style=flat-square" alt="AMBA" /> <img src="https://img.shields.io/badge/RTL-FSM_%7C_Pipeline_%7C_Arbitration-6D28D9?style=flat-square" alt="RTL" /> <img src="https://img.shields.io/badge/Memory-Cache_%7C_SRAM_%7C_FIFO-4338CA?style=flat-square" alt="Memory" /> </p>
+FPGA & EDA
+<p align="center"> <img src="https://img.shields.io/badge/Vivado-FPGA_Flow-7C3AED?style=flat-square" alt="Vivado" /> <img src="https://img.shields.io/badge/XSIM-Simulation-6D28D9?style=flat-square" alt="XSIM" /> <img src="https://img.shields.io/badge/Artix--7-FPGA-5B21B6?style=flat-square" alt="Artix-7" /> <img src="https://img.shields.io/badge/Zynq-ZedBoard-4F46E5?style=flat-square" alt="ZedBoard" /> <img src="https://img.shields.io/badge/JTAG-FPGA_Bring--Up-4338CA?style=flat-square" alt="JTAG" /> </p>
+
+Engineering & Verification Approach
+Architecture / Specification
+            ↓
+     Design Decomposition
+            ↓
+       RTL Development
+            ↓
+      Verification Plan
+            ↓
+  Stimulus + Driver + Monitor
+            ↓
+ Reference Model + Scoreboard
+            ↓
+ Assertions + Functional Coverage
+            ↓
+ Directed + Constrained-Random Tests
+            ↓
+    Regression & Debug
+            ↓
+ Simulation / Formal Validation
+            ↓
+      FPGA Implementation
+            ↓
+      Hardware Bring-Up
+Verification Principles
+Treat assertions as executable interface and microarchitecture requirements.
+Keep scoreboards and reference models independent from DUT implementation details wherever practical.
+Verify backpressure, reset behavior, error propagation, illegal behavior, and corner cases—not only nominal traffic.
+Use functional coverage to identify missing scenarios rather than treating coverage as a substitute for correctness.
+Use waveform analysis, transaction tracing, and assertion failures for root-cause debugging.
+Validate designs progressively from RTL simulation through synthesis, implementation, and FPGA hardware when applicable.
+Current Technical Focus
+research:
+  - Hardware and SoC Security
+  - Computer Architecture
+  - RISC-V Systems
+  - RTL Design and Verification
+  - FPGA Architecture and Prototyping
+  - Hardware Trust
+  - Logic Locking
+  - Hardware Trojan Detection
+  - AI for EDA
 
 building:
-  - Deeper control-flow and latency-tolerant verification for the RV32I core
-  - Stronger formal properties for AMBA protocol and datapath correctness
-  - Coverage-driven regressions with deterministic failure reproduction
-  - Architecture-level debugging depth across processors, interconnects and memory systems
+  - Deeper RISC-V and SoC architecture knowledge
+  - Advanced UVM verification environments
+  - Assertion-based and coverage-driven verification
+  - FPGA-based SoC prototyping
+  - Hardware-security research foundations
+  - ASIC and physical-design expertise
+Education
+Bachelor of Science in Electrical & Electronic Engineering
 
-open_to:
-  - Full-time new-graduate opportunities in the United States
-  - ASIC, SoC, CPU, interconnect and subsystem verification teams
-```
+Rajshahi University of Engineering & Technology (RUET)
+2019 – 2025
+CGPA: 3.39 / 4.00
+CGPA over last 40 credits: 3.88 / 4.00
 
----
-
-## Connect
-
-<p align="center">
-  <a href="mailto:md.hridoy7862@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-md.hridoy7862%40gmail.com-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  <a href="https://www.linkedin.com/in/md-reajul-karim-hridoy-8a96b9362/">
-    <img src="https://img.shields.io/badge/LinkedIn-Md_Reajul_karim_Hridoy-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/hridoy7862">
-    <img src="https://img.shields.io/badge/GitHub-Therockstar2001-312E81?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="/">
-    <img src="https://img.shields.io/badge/Portfolio-Engineering_Portfolio-7C3AED?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio" />
-  </a>
-</p>
-
-<p align="center">
-  <strong>Verification quality is measured by the defects an environment can expose—not by the amount of testbench code.</strong>
-</p>
-
-<p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,55:5B21B6,100:312E81&height=120&section=footer" alt="Footer" />
-</p>
+Connect
+<p align="center"> <a href="mailto:md.hridoy7862@gmail.com"> <img src="https://img.shields.io/badge/Gmail-md.hridoy7862%40gmail.com-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /> </a> <a href="https://www.linkedin.com/in/md-reajul-karim-hridoy-8a96b9362/"> <img src="https://img.shields.io/badge/LinkedIn-Md_Reajul_Karim_Hridoy-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /> </a> <a href="https://github.com/hridoy7862"> <img src="https://img.shields.io/badge/GitHub-hridoy7862-312E81?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /> </a> </p>
